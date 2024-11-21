@@ -77,7 +77,7 @@ nav ul li a .text {
     font-weight: 100;
     font-size: 0.90em;
     letter-spacing: .05em;
-    transform: translateY(5px);
+    transform: translateY(3px);
     transition: .3s;
 }
 
@@ -424,6 +424,10 @@ nav ul li:nth-child(5).active~.indicator {
        width: 55px;
        height: 55px;
     }
+    nav ul li a .text{
+        font-size: 0.6em;
+
+    }
     .indicator
     {
         display: none;
@@ -434,8 +438,9 @@ nav ul li:nth-child(5).active~.indicator {
         height: 70px;
     }
     .right{
-        position: fixed;
-        top: 93vh;
+        position:fixed;
+        top:91vh;
+        bottom:0;
         width: 100%;
         margin: 0;
         opacity: 0.9;
